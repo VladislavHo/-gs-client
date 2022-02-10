@@ -1,0 +1,46 @@
+.background-game{
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  filter: blur(75px);
+  z-index: -1;
+}
+.about-game{
+  padding: .5rem 5px;
+  &_basic-info{
+    display: flex;
+    &_main-screen{
+      width: 264px;
+      // height: 352px;
+      position: relative;
+
+    }
+    .info-game{
+      padding: 0 5rem;
+      ul{
+        li{
+          .summary{
+            width: 300px;
+            color: white;
+          }
+        }
+      }
+
+    }
+  }
+  .screenshots-game{
+    width: 100%;
+    height: 100px;
+    ul{
+      display: flex;
+      justify-content: space-between;
+      li{
+        width: 200px;
+        height: 100%;
+
+      }
+    }
+  }
+}
